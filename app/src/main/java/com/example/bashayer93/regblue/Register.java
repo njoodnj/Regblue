@@ -53,7 +53,7 @@ public class Register extends AppCompatActivity {
 
         BluetoothAdapter ba =BluetoothAdapter.getDefaultAdapter();
         if(ba !=null){
-            sb.append("blueTooth Adress:" + ba.getAddress() +"\n" );
+            sb.append("" + ba.getAddress() +"\n" );
 
 
         }else {   sb.append("blueTooth Adress: not supported by this device \n" );
