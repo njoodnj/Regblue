@@ -117,8 +117,6 @@ public class Register extends AppCompatActivity {
             int tmp;
 
 
-
-
             try {
                 URL url = new URL("http://192.168.8.100/ES/register.php");
 
