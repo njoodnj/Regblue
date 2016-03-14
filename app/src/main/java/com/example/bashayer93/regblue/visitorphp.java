@@ -43,7 +43,7 @@ public class visitorphp extends visitorchanges {
         return response;
     }
 
-    public String updateBiodata(String rid, String name, String refnum, String number) {
+    /*public String updateBiodata(String rid, String name, String refnum, String number) {
         try {
 
             name = name.replace(" ", "%20");
@@ -56,7 +56,7 @@ public class visitorphp extends visitorchanges {
         } catch (Exception e) {
         }
         return response;
-    }
+    }*/
 
     public String deleteBiodata(int rid) {
         try {
