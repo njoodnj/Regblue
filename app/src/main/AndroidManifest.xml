@@ -34,6 +34,10 @@
         <activity
             android:name=".visitor"
             android:label="@string/title_activity_visitor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".depregister"
+            android:label="@string/title_activity_depregister"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

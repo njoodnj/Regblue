@@ -235,10 +235,6 @@ public class visitor extends Activity implements OnClickListener {
 
                 System.out.println("Name : " + name + " Refnum : " + refnum + " Number : " + number);
 
-                String laporan = biodata.updateBiodata(viewrId.getText().toString(), editName.getText().toString(),
-                        editRefnum.getText().toString(), editNumber.getText().toString());
-
-                Toast.makeText(visitor.this, laporan, Toast.LENGTH_SHORT).show();
 
 
                 finish();

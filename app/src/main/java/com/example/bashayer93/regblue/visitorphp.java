@@ -4,7 +4,7 @@ package com.example.bashayer93.regblue;
 
 
 public class visitorphp extends visitorchanges {
-    String URL = "http://192.168.100.4/ES/visitor.php";
+    String URL = "http://10.197.101.229/ES/visitor.php";
     String url = "";
     String response = "";
 
